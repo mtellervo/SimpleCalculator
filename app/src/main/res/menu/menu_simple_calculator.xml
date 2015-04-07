@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".SimpleCalculatorActivity">
+    <item android:id="@+id/action_clear" android:title="@string/action_clear"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_store" android:title="@string/action_store"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_recall" android:title="@string/action_recall"
+        android:orderInCategory="102" app:showAsAction="never" />
+</menu>
